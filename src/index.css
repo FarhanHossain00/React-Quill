@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-editor {
+    min-height: 400px !important;
+}
+.ql-editor:focus{
+    outline: 1px solid #555;
+}
